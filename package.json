@@ -31,7 +31,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -f",
     "start": "vite"
   },
   "eslintConfig": {
