@@ -258,8 +258,8 @@ const TreeSystem: React.FC = () => {
       const chaosY = r * Math.sin(phi) * Math.sin(theta) * 0.6; // Y轴压扁一点，形成椭球
       const chaosZ = r * Math.cos(phi);
 
-      const imageUrl = `/photos/${fileName}`;
-
+      const imageUrl = `${import.meta.env.BASE_URL}photos/${fileName}`;
+      console.log(imageUrl)
       photos.push({
         id: `photo-${i}`,
         type: 'PHOTO',
